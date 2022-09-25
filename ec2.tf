@@ -5,4 +5,5 @@ resource "aws_instance" "tf-bb-jira" {
 
 tags {
   Name = "bb-demo"
+  Environment = "edu"
 }
